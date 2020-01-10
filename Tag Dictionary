@@ -1,0 +1,50 @@
+a: hyper link tag, makes the text into a hyper link, text will appear blue and underlined
+atributes: href="", put the url in the quotation marks to make that 
+the address of the link
+example: <a href="https://www.thisisafakewebsite>Link</a>
+
+hl: header tag, makes the text large and bolded and puts it on a seperate line
+atributes: none
+example: <h1>Title</h1>
+
+h6: last of the header tags, header tags range from 1-6. 
+the header becomes smaller the greater the number. 
+Everything else is the same as the h1 tag
+
+img: image tag, allows you to embed an image into the website
+attributes: src="", put the url in the quotation marks to make that the image that is displayed
+example: <img src="Image.JPG">
+
+li: list tag, this is a nest tag that gets nested in either the ol or ul tag. put the open and close tag surounding the line that you want to be listed
+attributes: none
+example:
+<ul>
+<li>This</li>
+<li>Is</li>
+<li>A</li>
+<li>List</li>
+</ul>
+
+ol: ordered list tag, tag surrounds all the list items, including <li> tag. ol makes the list ordered with numbers
+attributes: none
+example:
+<ol>
+<li>This</li>	1. This
+<li>Is</li>  =  2. Is  
+<li>A</li>		3. A
+<li>List</li>	4. List
+</ol>
+
+p: paragraph tag, makes text on a seperate line with no header.
+attributes: none
+example: <p>this is on a seperate line</p>
+
+ul: unordered list tag, tag surrounds all the list items, including <li> tag. ul makes the list unordered with bullet points
+attributes: none
+example:
+<ul>
+<li>This</li>	- This ( - = replacement for bullet points)
+<li>Is</li>	 =	- Is
+<li>A</li>		- A
+<li>List</li>	- List
+</ul> 
