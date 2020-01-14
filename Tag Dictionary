@@ -1,7 +1,15 @@
+!DOCTYPE: selects which version of html you want to use, goes at top of page, no close tag
+attributes: html, uses most recent version of html
+example: <!DOCTYPE html>
+
 a: hyper link tag, makes the text into a hyper link, text will appear blue and underlined
 atributes: href="", put the url in the quotation marks to make that 
 the address of the link
 example: <a href="https://www.thisisafakewebsite>Link</a>
+
+body: contains content of webpage, surrounds all tags except for html tag, head tag, title tag and !DOCTYPE tag
+attributes: none
+example: <body> all of the content/tags </body>
 
 hl: header tag, makes the text large and bolded and puts it on a seperate line
 atributes: none
@@ -10,6 +18,14 @@ example: <h1>Title</h1>
 h6: last of the header tags, header tags range from 1-6. 
 the header becomes smaller the greater the number. 
 Everything else is the same as the h1 tag
+
+head: contains things for your browser to think about, like the title/asthetic of the website's tag
+attributes: none
+example: <head> <title> title </title> <head>
+
+html: tells browser were the code starts and ends, surrounds everything except for <!DOCTYPE>
+attributes: none
+example: <html> <body> everything </body> </html>
 
 img: image tag, allows you to embed an image into the website
 attributes: src="", put the url in the quotation marks to make that the image that is displayed
@@ -38,6 +54,10 @@ example:
 p: paragraph tag, makes text on a seperate line with no header.
 attributes: none
 example: <p>this is on a seperate line</p>
+
+title: nest tag, when nested in head tag, changes the title of the website's tab
+attributes:none
+example: <head> <title>title</title> </head>
 
 ul: unordered list tag, tag surrounds all the list items, including <li> tag. ul makes the list unordered with bullet points
 attributes: none
